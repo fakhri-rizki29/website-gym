@@ -281,7 +281,7 @@ a {
 /*  */
 .section-2 {
   /* border: 1px solid black; */
-  background-color: rgba(51, 187, 181,0.1);
+  background-color: rgba(51, 187, 181, 0.1);
   width: 92%;
   height: 120vh;
   margin: auto;
@@ -320,7 +320,7 @@ a {
   top: 28rem;
   left: 5rem;
 }
-.img-section-2-left{
+.img-section-2-left {
   width: 100%;
   object-fit: cover;
 }
@@ -534,7 +534,6 @@ a {
   background-clip: text;
   color: transparent;
   margin-bottom: 1rem;
-
 }
 .p-section-2 {
   font-family: "Poppins";
@@ -553,7 +552,7 @@ a {
   line-height: 20.78px;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #114B5F;
+  color: #114b5f;
   text-transform: uppercase;
   padding: 1rem;
   border-top-right-radius: 1rem;
@@ -561,4 +560,388 @@ a {
   border-bottom-left-radius: 1rem;
   border: 1px solid #33bbb5;
   box-shadow: 0 0 3px 1px #6c3483;
+}
+/* section-2 end */
+/*  */
+/*  */
+
+/* section-3-start */
+
+.section-3 {
+  /* border: 1px solid blue; */
+  width: 92%;
+  height: 100%;
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.judul-section-3 {
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.h1-section-3 {
+  /* border: 1px solid yellow; */
+  font-family: "Poppins";
+  font-size: 68px;
+  font-weight: 300;
+  line-height: 61.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #114b5f;
+}
+.span-section-3 {
+  font-family: "Poppins";
+  font-size: 68px;
+  font-weight: 300;
+  line-height: 61.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #114b5f;
+}
+.container-card-3 {
+  /* border: 1px solid black; */
+  display: flex;
+  margin: auto;
+  margin-top: 5rem;
+  /* margin-bottom: 3rem; */
+  gap: 1.5rem;
+}
+
+.card-3-kotak {
+  /* border: 1px solid yellow; */
+  flex: 1;
+  display: flex;
+  width: 30%;
+  height: 100%;
+  flex-direction: column;
+}
+.bentuk-kotak {
+  /* border: 1px solid blueviolet; */
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  /* margin-bottom: 2rem; */
+  border-radius: 1rem;
+  line-height: 100px;
+  margin: auto;
+  background-color: #6c3483;
+  box-shadow: 0 0 2px 1px #6c3483;
+}
+.ri-brain-2-line {
+  font-size: 2.3em;
+  color: #fff;
+}
+.p-card-3 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  margin-top: 3rem;
+  color: #2c2c2e;
+}
+
+.bentuk-bulat {
+  /* border: 1px solid black; */
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  line-height: 100px;
+  background-color: #6c3483;
+  box-shadow: 0 0 3px 1px #6c3483;
+  border-radius: 50%;
+}
+.ri-timer-fill {
+  font-size: 2.3em;
+  color: #fff;
+}
+
+.card-3-bulat {
+  flex: 1;
+  display: flex;
+  width: 30%;
+  height: 100%;
+  flex-direction: column;
+}
+.card-3-segitiga {
+  flex: 1;
+  display: flex;
+  width: 30%;
+  height: 100%;
+  flex-direction: column;
+}
+.bentuk-segitiga {
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  line-height: 100px;
+  background-color: #6c3483;
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  position: relative;
+}
+.ri-apple-line {
+  font-size: 2.3em;
+  color: #fff;
+  position: absolute;
+  top: 0.5rem;
+  left: 2.1rem;
+}
+/* section-3-end */
+/* 
+ */
+
+/* section-4-start */
+
+.section-4 {
+  /* border: 1px solid black; */
+  display: flex;
+  width: 92%;
+  /* height: 100vh; */
+  margin: auto;
+  margin-top: 5rem;
+  flex-direction: column;
+  position: relative;
+}
+.judul-section-4 {
+  /* border: 1px solid yellow; */
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 61.2px;
+  letter-spacing: -0.02em;
+  color: #114b5f;
+  margin-bottom: 3rem;
+}
+.gambar-kiri-section-4 {
+  /* border: 1px solid red; */
+  width: 90%;
+  display: flex;
+  margin: auto;
+  gap: 1rem;
+  background-color: #2c2c2e;
+  opacity: 0.9;
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.gambar-section-4 {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+}
+.p-section-4 {
+  /* border: 1px solid #33bbb5; */
+  font-family: "Poppins";
+  font-size: 31px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 20px;
+  color: #fff;
+  padding: 2rem;
+  margin-top: rem;
+}
+.span-section-4 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+.p-kanan-section-4 {
+  position: absolute;
+  top: 28rem;
+  right: 28rem;
+}
+.hijau-section-4 {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.6px;
+  letter-spacing: -0.02em;
+  color: #33bbb5;
+  /* line-height: 35px; */
+}
+.p-end-section-4 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  color: #fff;
+  line-height: 50px;
+}
+
+.gambar-bawah-section-4 {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+.kiri-bawah-section-4 {
+  /* border: 1px solid blue; */
+  display: flex;
+  width: 30%;
+  /* margin-right: -2rem; */
+}
+
+.p-carl-container {
+  /* border: 1px solid orange; */
+  display: flex;
+  margin: auto;
+  margin-left: -3rem;
+}
+.p-carl {
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 700;
+  color: #6c3483;
+  text-align: center;
+}
+.tengah-bawah-section-4 {
+  /* border: 1px solid blueviolet; */
+  width: 30%;
+  display: flex;
+  margin: auto;
+  margin-left: -3rem;
+}
+.ri-arrow-left-wide-line {
+  color: #33bbb5;
+  font-size: 2em;
+  text-align: center;
+}
+.p-alex-container {
+  /* border: 1px solid green; */
+  display: flex;
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 31.5px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #114b5f;
+  margin: auto;
+  margin-left: 12rem;
+}
+.icon-bawah-section-4 {
+  /* border: 1px solid pink; */
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  margin-left: -12rem;
+}
+.ri-arrow-right-wide-line {
+  color: #33bbb5;
+  font-size: 2em;
+  text-align: center;
+}
+
+.gambar-kanan-section-4 {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  margin-top: -13rem;
+  margin-right: -1rem;
+  /* margin-left: -3rem; */
+}
+.p-sarah {
+  font-family: "Poppins";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 31.5px;
+  letter-spacing: -0.01em;
+  color: #6c3483;
+  margin-left: -3rem;
+  margin-right: 3rem;
+}
+/* end */
+/*  */
+/*  */
+.section-5 {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 187, 181, 0.1);
+  margin-top: 2rem;
+}
+.h1-section-5 {
+  font-family: "Poppins";
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 57.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2c2c2e;
+}
+.span-section-5 {
+  font-family: "Poppins";
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 57.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  background: linear-gradient(to right, #33bbb5, #6c3483);
+  background-clip: text;
+  color: transparent;
+}
+.p-section-5 {
+  font-family: "Poppins";
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 33.8px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2c2c2e;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.cta-section-5 {
+  padding: 1rem;
+  background: linear-gradient(to right, #33bbb5, #6c3483);
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 20.48px;
+  font-weight: 700;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0 0 3px 1px #33bbb5;
+  border: 1px solid #6c3483;
+}
+footer{
+  width: 100%;
+  background-color: #2c2c2e;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.p-footer{
+  font-family:"Poppins" ;
+font-size: 31.74px;
+font-weight: 300;
+line-height: 32.21px;
+letter-spacing: -0.02em;
+color: rgba(221, 222, 235, 0.5);
+}
+.span-footer{
+  font-family: "Poppins";
+font-size: 31.74px;
+font-weight: 700;
+line-height: 32.21px;
+letter-spacing: -0.02em;
+color: #DDDEEB80;
 }
