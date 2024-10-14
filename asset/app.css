@@ -623,7 +623,7 @@ a {
 }
 
 .card-3-kotak {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   flex: 1;
   display: flex;
   width: 30%;
